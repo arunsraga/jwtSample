@@ -1,0 +1,127 @@
+{
+	"id": "402d8cb7-3c67-80ae-a2d6-78d49505735a",
+	"name": "APICollection",
+	"description": "",
+	"order": [
+		"f83307ad-82df-e576-a5f9-7f01588398b2",
+		"b74c427f-5ce1-e955-a3ca-329b4d36e675"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1658079877532,
+	"owner": 0,
+	"public": false,
+	"requests": [
+		{
+			"id": "b74c427f-5ce1-e955-a3ca-329b4d36e675",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "localhost:3000/login",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "402d8cb7-3c67-80ae-a2d6-78d49505735a",
+			"data": [
+				{
+					"key": "username",
+					"value": "test111",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "password",
+					"value": "pass1234",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"name": "Login user",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1658079909834,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "f83307ad-82df-e576-a5f9-7f01588398b2",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "localhost:3000/register",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "402d8cb7-3c67-80ae-a2d6-78d49505735a",
+			"data": [
+				{
+					"key": "username",
+					"value": "test111",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "password",
+					"value": "pass1234",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "firstname",
+					"value": "test name",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "lastname",
+					"value": "tlastname1",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "email",
+					"value": "abcd1@mail.com",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"name": "Register a new user",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1658079896650,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		}
+	]
+}
